@@ -1,7 +1,7 @@
 const API_URL = 'https://maps.googleapis.com/maps/api/js'
 const CALLBACK_NAME = '__googleMapsApiOnLoadCallback'
 
-const optionsKeys = ['channel', 'client', 'key', 'language', 'region', 'v']
+const optionsKeys = ['channel', 'client', 'key', 'language', 'region', 'v', 'loading']
 
 let promise = null
 
